@@ -1,0 +1,89 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Ultra', serif;
+    color:white;
+}
+#root{
+    background-color: hsl(216, 50%, 16%);
+    padding:10px;
+    width:240px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top:100px;
+    
+}
+
+#root .img{
+    width: 98%;
+    margin: 0 auto;
+    height: 250px;
+    border-radius: 10px;
+}
+.img:hover + #help{
+    display:block;
+    position:absolute;
+    margin-top:-252px;
+    font-size: 35px;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+    opacity:0.8;
+    padding: 108px 100px;
+}
+#root h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#root h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+#root h2{
+    font-size:14px;
+    font-weight: 400;
+    width:95%;
+}
+hr{
+    background-color:hsl(215, 32%, 27%);
+    border:2px solid hsl(215, 32%, 27%);
+}
+
+.ethDetails span{
+    font-size: 14px;
+    font-weight: 300;
+}
+.ethDetails{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-right:20px;
+}
+
+#root .profile{
+    display:flex;
+    justify-content:left;
+    justify-items: center;
+    align-items:center; 
+    font-size:14px;
+    font-weight: 300;
+}
+
+#root .profile img{
+    width:50px;
+    height:50px;
+    margin-right: 20px;
+}
+
+#help{
+    display:none;
+}
+
+.creation{
+    color:  hsl(178, 100%, 50%);
+}
+
